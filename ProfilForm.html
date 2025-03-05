@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chef profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Playwrite+US+Modern:wght@100;400&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="bg-cover bg-center border-[#FA8836]"
+    style="background-image: url('./backgr.png'); font-family: 'Playwrite US Modern';">
+
+    <!-- Section 1: Chef Profile -->
+    <section class="mt-8 mb-16 font-sans">
+        <div class="container mx-auto max-w-6xl px-4 text-center rounded-lg">
+            <h1 class="text-4xl font-bold mb-4 text-white">chef Mohamed Ali</h1>
+            <p class="text-lg mb-4 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                Maiores ad enim mollitia cumque repudiandae laboriosam minus aliquam! Dolores labore molestias,<br>
+                sint impedit magnam cum ipsum maxime illo, modi praesentium repellat.
+            </p>
+            <div class="w-64 h-64 rounded-lg border-2 border-[#FA8836] overflow-hidden mx-auto">
+                <img src="./image.png" alt="Chef Image" class="w-full h-full object-cover">
+            </div>
+            <div class="mt-4 flex flex-col items-center">
+                <div class="flex gap-4">
+                    <div class="flex items-center">
+                        <i class="fas fa-spoon fa-utensils mr-2 text-[#FA8836]"></i>
+                        <p class="text-sm text-white mt-1">Italian, Moroccan, Local</p>
+                    </div>
+                    <div class="flex items-center text-sm text-white mt-2">
+                        <i class="fas fa-map-marker-alt mr-1 text-[#FA8836]"></i>
+                        <span>Nasr, city</span>
+                    </div>
+                </div>
+                <button class="flex items-center text-white px-3 py-2 focus:outline-none mt-4">
+                    <i class="far fa-heart mr-2 text-[#FA8836]"></i>
+                    Add to Favorite
+                </button>
+                <div class="flex items-center mt-4 gap-2 justify-center">
+                    <button
+                        class="flex items-center bg-[#FA8836] hover:bg-orange-600 text-white px-3 py-2 rounded-lg focus:outline-none">
+                        <i class="fas fa-envelope mr-2"></i>
+                        Send Request
+                    </button>
+                    <button
+                        class="flex items-center bg-[#128000] hover:bg-green-800 text-white px-3 py-2 rounded-lg focus:outline-none">
+                        <i class="fas fa-comment mr-2"></i>
+                        Chat Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Chef's Event Menus (Desktop) -->
+    <section class="hidden lg:block py-8">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="h-[3px] bg-orange-600 mb-8"></div>
+            <h2 class="text-center sm:text-4xl md:text-6xl font-bold text-[#FA8836] mb-16 mt-14">
+                Chef's Event Menus
+            </h2>
+            <div class="flex my-8 xl:justify-start sm:justify-center font-sans">
+                <div class="relative flex">
+                    <input type="text" class="rounded-lg bg-[#383838CC] py-2 px-4 w-96 focus:outline-none text-white"
+                        placeholder="Search" />
+                    <button class="absolute right-3 top-2 text-orange-600">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <img src="./iconfilter.png" alt="iconfilter" class="w-10 h-11 ml-4" />
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 font-sans">
+                <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                    <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-48 object-cover" />
+                    <div class="p-4">
+                        <div class="flex items-center mb-2 text-[#FA8836]">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <div class="ml-auto flex gap-4">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Italian Delight</h3>
+                        <p class="text-sm text-white">Italian Cuisine</p>
+                        <button class="mt-4 bg-[#FA8836] text-white py-2 px-4 rounded hover:bg-orange-600">
+                            Send Request
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                    <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-48 object-cover" />
+                    <div class="p-4">
+                        <div class="flex items-center mb-2 text-[#FA8836]">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <div class="ml-auto flex gap-4">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Italian Delight</h3>
+                        <p class="text-sm text-white">Italian Cuisine</p>
+                        <button class="mt-4 bg-[#FA8836] text-white py-2 px-4 rounded hover:bg-orange-600">
+                            Send Request
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                    <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-48 object-cover" />
+                    <div class="p-4">
+                        <div class="flex items-center mb-2 text-[#FA8836]">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <div class="ml-auto flex gap-4">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Italian Delight</h3>
+                        <p class="text-sm text-white">Italian Cuisine</p>
+                        <button class="mt-4 bg-[#FA8836] text-white py-2 px-4 rounded hover:bg-orange-600">
+                            Send Request
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                    <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-48 object-cover" />
+                    <div class="p-4">
+                        <div class="flex items-center mb-2 text-[#FA8836]">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <div class="ml-auto flex gap-4">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Italian Delight</h3>
+                        <p class="text-sm text-white">Italian Cuisine</p>
+                        <button class="mt-4 bg-[#FA8836] text-white py-2 px-4 rounded hover:bg-orange-600">
+                            Send Request
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="flex justify-center mt-8">
+                <ul class="flex items-center space-x-2">
+                    <li>
+                        <a href="#"
+                            class="bg-white text-[#FA8836] px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="bg-white text-[#FA8836] px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">1</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="bg-white text-[#FA8836] px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">2</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="bg-white text-[#FA8836] px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">3</a>
+                    </li>
+                    <li>
+                        <span class="text-white px-2">...</span>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="bg-white text-[#FA8836] px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">50</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="bg-white text-[#FA8836] px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="h-[3px] bg-orange-600 mb-4 mt-16"></div>
+        </div>
+    </section>
+
+    <!-- Section 2: Chef's Event Menus (Mobile) -->
+    <section class="block lg:hidden py-8">
+        <div class="container mx-auto px-4">
+            <div class="bg-black rounded-xl p-6">
+                <h2 class="text-center text-2xl sm:text-3xl font-bold text-[#FA8836] mb-8">
+                    Chef's Event Menus
+                </h2>
+                <div class="flex items-center justify-center gap-4 mb-8 font-sans">
+                    <div class="relative w-full max-w-xs">
+                        <input type="text"
+                            class="rounded-lg bg-[#383838CC] py-2 px-4 w-full focus:outline-none text-white"
+                            placeholder="Search" />
+                        <button class="absolute right-3 top-2 text-orange-600">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <img src="./iconfilter.png" alt="iconfilter" class="w-10 h-11" />
+                </div>
+                <div class="grid grid-cols-2 gap-6 text-white font-sans ">
+                    <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                        <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 object-cover" />
+                        <div class="p-4">
+                            <div class="flex items-center mb-2 text-[#FA8836]">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                               
+                            </div>
+                            <h3 class="text-sm sm:text-base font-bold">Italian Delight</h3>
+                            <p class="text-xs sm:text-sm">Italian Cuisine</p>
+                            <div class="mt-3  flex gap-3 text-[#FA8836]">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <button class="mt-3 bg-[#FA8836] text-white py-1 px-3  rounded hover:bg-orange-600 text-sm">
+                                Send Request
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                        <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 object-cover" />
+                        <div class="p-2 sm:p-4">
+                            <div class="flex items-center mb-2 text-[#FA8836] text-xs sm:text-sm">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <h3 class="text-base sm:text-lg font-bold text-white">Italian Delight</h3>
+                            <p class="text-xs sm:text-sm text-white">Italian Cuisine</p>
+                            <div class="mt-2 flex gap-2 sm:gap-4">
+                              <i class="far fa-paper-plane"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="mt-2">
+                              <button class="bg-[#FA8836] hover:bg-green-900 text-white px-2 sm:px-3 py-1 sm:py-2 rounded text-xs sm:text-sm">
+                                Send Request
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                        <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 object-cover" />
+                        <div class="p-4">
+                            <div class="flex items-center mb-2 text-[#FA8836]">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                               
+                            </div>
+                            <h3 class="text-sm sm:text-base font-bold">Italian Delight</h3>
+                            <p class="text-xs sm:text-sm">Italian Cuisine</p>
+                            <div class="mt-3  flex gap-3 text-[#FA8836]">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <button class="mt-3 bg-[#FA8836] text-white py-1 px-3 rounded hover:bg-orange-600 text-sm">
+                                Send Request
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+                        <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 object-cover" />
+                        <div class="p-4">
+                            <div class="flex items-center mb-2 text-[#FA8836]">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                               
+                            </div>
+                            <h3 class="text-sm sm:text-base font-bold">Italian Delight</h3>
+                            <p class="text-xs sm:text-sm">Italian Cuisine</p>
+                            <div class="mt-3  flex gap-3 text-[#FA8836]">
+                                <i class="far fa-paper-plane"></i>
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <button class="mt-3 bg-[#FA8836] text-white py-1 px-3 rounded hover:bg-orange-600 text-sm">
+                                Send Request
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="flex justify-center mt-8 text-xs ">
+                    <ul class="flex items-center space-x-2">
+                        <li>
+                            <a href="#"
+                                class="bg-white text-[#FA8836] px-2 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="bg-white text-[#FA8836] px-2 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">1</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="bg-white text-[#FA8836] px-2 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">2</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="bg-white text-[#FA8836] px-2 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">3</a>
+                        </li>
+                        <li>
+                            <span class="text-white px-2">...</span>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="bg-white text-[#FA8836] px-1.5  border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">50</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="bg-white text-[#FA8836] px-2 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="h-[3px] bg-orange-600 mb-4 mt-16"></div>
+        </div>
+    </section>
+
+
+   <!-- Chef's Gourmet Meals -->
+<section class=" flex justify-center mt-8 mb-8">
+    <div class="container mx-auto max-w-6xl px-4">
+      <div class="bg-black rounded-xl p-4 sm:p-6 w-full">
+        <h2 class="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#FA8836] mb-8 sm:mb-12">
+          Chef's Gourmet Meals
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-2  lg:grid-cols-4 gap-6 sm:gap-6 font-sans">
+          <!-- Card 1 -->
+          <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+            <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 sm:h-48 object-cover" />
+            <div class="p-2 sm:p-4">
+              <div class="flex items-center mb-2 text-[#FA8836] text-xs sm:text-sm">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-white">Italian Delight</h3>
+              <p class="text-xs sm:text-sm text-white">Italian Cuisine</p>
+              <div class="mt-2 flex gap-2 sm:gap-4">
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="mt-2">
+                <button class="bg-[#128000] hover:bg-green-900 text-white px-2 sm:px-3 py-1 sm:py-2 rounded text-xs sm:text-sm">
+                  Send Request
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+            <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 sm:h-48 object-cover" />
+            <div class="p-2 sm:p-4">
+              <div class="flex items-center mb-2 text-[#FA8836] text-xs sm:text-sm">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-white">Italian Delight</h3>
+              <p class="text-xs sm:text-sm text-white">Italian Cuisine</p>
+              <div class="mt-2 flex gap-2 sm:gap-4">
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="mt-2">
+                <button class="bg-[#128000] hover:bg-green-900 text-white px-2 sm:px-3 py-1 sm:py-2 rounded text-xs sm:text-sm">
+                  Send Request
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+            <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 sm:h-48 object-cover" />
+            <div class="p-2 sm:p-4">
+              <div class="flex items-center mb-2 text-[#FA8836] text-xs sm:text-sm">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-white">Italian Delight</h3>
+              <p class="text-xs sm:text-sm text-white">Italian Cuisine</p>
+              <div class="mt-2 flex gap-2 sm:gap-4">
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="mt-2">
+                <button class="bg-[#128000] hover:bg-green-900 text-white px-2 sm:px-3 py-1 sm:py-2 rounded text-xs sm:text-sm">
+                  Send Request
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="bg-[#383838CC] rounded shadow-lg overflow-hidden">
+            <img src="./reciepimg.png" alt="Italian Delight" class="w-full h-40 sm:h-48 object-cover" />
+            <div class="p-2 sm:p-4">
+              <div class="flex items-center mb-2 text-[#FA8836] text-xs sm:text-sm">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-white">Italian Delight</h3>
+              <p class="text-xs sm:text-sm text-white">Italian Cuisine</p>
+              <div class="mt-2 flex gap-2 sm:gap-4">
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="mt-2">
+                <button class="bg-[#128000] hover:bg-green-900 text-white px-2 sm:px-3 py-1 sm:py-2 rounded text-xs sm:text-sm">
+                  Send Request
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- يمكنك تكرار البلوك أعلاه للعناصر الأخرى -->
+        </div>
+        <!-- Pagination -->
+        <div class="flex justify-center mt-4">
+          <ul class="flex items-center space-x-2 text-xs sm:text-sm">
+            <li>
+              <a href="#" class="bg-white text-[#FA8836] px-2 sm:px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">
+                <i class="fas fa-chevron-left"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="bg-white text-[#FA8836] px-2 sm:px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">1</a>
+            </li>
+            <li>
+              <a href="#" class="bg-white text-[#FA8836] px-2 sm:px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">2</a>
+            </li>
+            <li>
+              <a href="#" class="bg-white text-[#FA8836] px-2 sm:px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">3</a>
+            </li>
+            <li>
+              <span class="text-white px-2">...</span>
+            </li>
+            <li>
+              <a href="#" class="bg-white text-[#FA8836] px-2 sm:px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">50</a>
+            </li>
+            <li>
+              <a href="#" class="bg-white text-[#FA8836] px-2 sm:px-3 py-1 border border-[#FA8836] rounded hover:bg-[#FA8836] hover:text-white">
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="h-[3px] bg-orange-600 mb-4 mt-8"></div>
+    </div>
+  </section>
+  
+  <!-- Chef's Showcase -->
+  <section class="py-8 px-4">
+    <div class="container mx-auto max-w-6xl px-4">
+      <!-- نسخة الديسكتوب -->
+      <h2 class="hidden md:block text-center text-3xl sm:text-4xl md:text-5xl text-[#FA8836] font-bold mb-8">
+        Chef's Showcase
+      </h2>
+      <div class="hidden md:grid grid-cols-3 gap-4">
+        <div class="bg-[#100F0D] h-24 sm:h-28 md:h-32 lg:h-36"></div>
+        <div class="bg-[#100F0D] h-24 sm:h-28 md:h-32 lg:h-36"></div>
+        <div class="bg-[#100F0D] h-24 sm:h-28 md:h-32 lg:h-36"></div>
+        <!-- يمكنك إضافة المزيد من العناصر هنا -->
+      </div>
+      <!-- نسخة الموبايل -->
+      <div class="md:hidden">
+        <div class="bg-black p-4 sm:p-8 rounded-xl">
+          <h2 class="text-center text-2xl sm:text-3xl text-[#FA8836] font-bold mb-4">
+            Chef's Showcase
+          </h2>
+          <div class="grid grid-cols-2 gap-2">
+            <div class="bg-[#100F0D] h-24 sm:h-32 col-span-2"></div>
+            <div class="bg-[#100F0D] h-24 sm:h-32"></div>
+            <div class="bg-[#100F0D] h-24 sm:h-32"></div>
+            <div class="bg-[#100F0D] h-24 sm:h-32 col-span-2"></div>
+            <div class="bg-[#100F0D] h-24 sm:h-32"></div>
+            <div class="bg-[#100F0D] h-24 sm:h-32"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8 px-4 ">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="h-[2px] bg-orange-600 mb-4"></div>
+
+            <div class="container mx-auto max-w-3xl text-center">
+                <h2 class="text-xl sm:text-2xl font-semibold mt-16 mb-8">
+                    Ready to Experience Culinary Excellence?
+                </h2>
+                <p class="text-sm text-gray-400 mb-16">
+                    Sign up to Book a Chef and Save Favorites
+                </p>
+                <button
+                    class="bg-[#FA8836] hover:bg-orange-600 text-white text-lg font-bold py-4 px-32 rounded transition-colors mb-16">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
